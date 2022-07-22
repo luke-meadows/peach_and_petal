@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div>
-      <div className="grid grid-cols-6  py-6 items-center sm:px-2 md:px-12 lg:px-12">
+      <div className="grid grid-cols-6  pt-6 pb-4 items-center sm:px-2 md:px-12 lg:px-12">
         <div className="flex w-[180px] col-span-1">
           <i className="icon-facebook mr-2 text-xl text-gray-700 pointer" />
           <i className="icon-instagram text-xl text-gray-700 pointer" />
@@ -20,7 +20,7 @@ export default function Header() {
               style={{
                 fontFamily: 'Playfair',
               }}
-              className="text-center uppercase text-xs text-gray-500  sm:mb-0 md:mb-6 lg:mb-6"
+              className="text-center uppercase text-xs text-gray-500  sm:mb-0 md:mb-3 lg:mb-4"
             >
               Luxury Lingerie
             </h2>
