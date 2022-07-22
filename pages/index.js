@@ -19,7 +19,7 @@ export default function Home() {
       <Header />
       <div className="relative w-full">
         <Image src={hero} layout="responsive" objectFit="contain" />
-        <div className="absolute left-10 top-10 flex justify-center flex-col">
+        <div className="absolute left-20 top-10 flex justify-center flex-col">
           <p
             className=" text-white text-5xl mb-4"
             style={{
@@ -37,7 +37,7 @@ export default function Home() {
             }}
             className="border bg-red-300 border-red-300 text-red-300 w-fit px-6 py-1 text-s rounded-full text-black"
           >
-            Shop Now
+            Shop Sale
           </p>
         </div>
       </div>
