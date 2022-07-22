@@ -17,7 +17,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <div className="flex justify-evenly m-24 gap-x-10">
+      <div className="flex justify-evenly m-24 gap-x-24">
         <ProductThumbnail title="Lingerie" image={lingerie} />
         <ProductThumbnail title="Nightwear" image={nightwear} />
         <ProductThumbnail title="New In" image={newIn} />

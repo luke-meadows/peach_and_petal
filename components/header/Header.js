@@ -3,8 +3,8 @@ export default function Header() {
     <div>
       <div className="grid grid-cols-6  py-6 items-center sm:px-2 md:px-12 lg:px-12">
         <div className="flex w-[180px] col-span-1">
-          <i className="icon-facebook mr-2 text-xl text-gray-700" />
-          <i className="icon-instagram text-xl text-gray-700" />
+          <i className="icon-facebook mr-2 text-xl text-gray-700 pointer" />
+          <i className="icon-instagram text-xl text-gray-700 pointer" />
         </div>
         <div className="flex items-center justify-center flex-col col-span-4">
           <div>
@@ -41,10 +41,10 @@ export default function Header() {
           </div>
         </div>
         <div className="flex items-center justify-end col-span-1">
-          <i className="icon-search  text-lg text-gray-700" />
-          <i className="ml-5 icon-shopping-bag text-lg text-gray-700" />
+          <i className="icon-search  text-lg text-gray-700 pointer" />
+          <i className="ml-5 icon-shopping-bag text-lg text-gray-700 pointer" />
           <span className="text-[12px] text-red-300">(2)</span>
-          <i className=" ml-2 icon-menu text-xl mt-[2px] text-gray-700 lg:hidden md:hidden" />
+          <i className=" ml-2 icon-menu text-xl mt-[2px] text-gray-700 lg:hidden md:hidden pointer" />
         </div>
       </div>
       <div className="text-center bg-black p-2 text-white text-[12px] font-light">
