@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
 
 @font-face {
   font-family: 'Silent Reaction';
@@ -47,7 +48,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: 'FuturaPT', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background: rgb(250, 250, 250);
 }

@@ -48,7 +48,7 @@ export default function Header() {
           </p>
         </div>
       </div>
-      <div className="text-center bg-black p-2 text-gray-100 text-[12px] font-light">
+      <div className="text-center bg-black p-2 text-white text-[12px] font-light">
         <div className="flex gap-x-12 mx-auto w-fit">
           <p className="  ">Free delivery on orders over £100</p>
           <p>|</p>

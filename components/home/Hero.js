@@ -20,12 +20,7 @@ export default function Hero() {
         <p className=" text-white mb-4">
           Save up to 15% on selected items with code SUMMER
         </p>
-        <p
-          style={{
-            fontFamily: 'Silent Reaction',
-          }}
-          className="border bg-black border-black text-red-300 w-fit px-12 py-3 text-xl rounded-full "
-        >
+        <p className="border bg-black border-black text-red-300 w-fit px-12 py-3 text-l rounded-full ">
           Shop Now
         </p>
       </div>
