@@ -2,12 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Silent Reaction';
+  src: url('/static/Silent Reaction.ttf') format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Playfair';
+  src: url('/static/PlayfairDisplay-Regular.ttf') format('woff2');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Playfair';
+  src: url('/static/PlayfairDisplay-Black.ttf') format('woff2');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Playfair';
+  src: url('/static/PlayfairDisplay-Bold.ttf') format('woff2');
+  font-weight: 700;
+}
+@font-face {
+  font-family: FuturaPT;
+  font-weight: 100;
+  src: url('/static/fonts/FuturaPTLight.otf') format('opentype');
+}
+@font-face {
+  font-family: FuturaPT;
+  font-weight: 200;
+  src: url('/static/fonts/FuturaPTBook.otf') format('opentype');
+}
+@font-face {
+  font-family: FuturaPT;
+  font-weight: medium;
+  src: url('/static/fonts/FuturaPTMedium.otf') format('opentype');
+}
+@font-face {
+  font-family: FuturaPT;
+  font-weight: bold;
+  src: url('/static/fonts/FuturaPTBold.otf') format('opentype');
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'FuturaPT', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: rgb(250, 250, 250);
 }
 
 a {
