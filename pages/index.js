@@ -19,7 +19,7 @@ export default function Home() {
       <Header />
       <div className="relative w-full">
         <Image src={hero} layout="responsive" objectFit="contain" />
-        <div className="absolute left-20 top-10 flex justify-center flex-col">
+        <div className="absolute left-[50%] top-[50%] translate-x-[-50%]  translate-y-[-50%]  flex justify-center flex-col items-center">
           <p
             className=" text-white text-5xl mb-4"
             style={{
