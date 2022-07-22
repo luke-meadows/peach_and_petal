@@ -23,26 +23,6 @@
   src: url('/static/PlayfairDisplay-Bold.ttf') format('woff2');
   font-weight: 700;
 }
-@font-face {
-  font-family: FuturaPT;
-  font-weight: 100;
-  src: url('/static/fonts/FuturaPTLight.otf') format('opentype');
-}
-@font-face {
-  font-family: FuturaPT;
-  font-weight: 200;
-  src: url('/static/fonts/FuturaPTBook.otf') format('opentype');
-}
-@font-face {
-  font-family: FuturaPT;
-  font-weight: medium;
-  src: url('/static/fonts/FuturaPTMedium.otf') format('opentype');
-}
-@font-face {
-  font-family: FuturaPT;
-  font-weight: bold;
-  src: url('/static/fonts/FuturaPTBold.otf') format('opentype');
-}
 
 html,
 body {
