@@ -43,8 +43,9 @@ export default function Header() {
         </div>
       </div>
       <div className="text-center bg-black p-2">
-        <p className=" text-white text-xs ">
-          Free delivery on orders over £100 - UK and International Shipping
+        <p className=" text-white text-[12px] font-light">
+          Free delivery on orders over £100 | UK and International Shipping |
+          Ethically Sourced Fabric
         </p>
       </div>
     </div>
