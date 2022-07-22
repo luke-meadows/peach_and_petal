@@ -28,14 +28,14 @@ export default function Home() {
           >
             Summer Sale
           </p>
-          <p className=" text-white mb-4 ">
+          <p className=" text-white mb-4">
             Save up to 15% on selected items with code SUMMER
           </p>
           <p
             style={{
               fontFamily: 'Playfair',
             }}
-            className="border bg-red-300 border-red-300 text-red-300 w-fit px-4 py-2 text-xs rounded-full text-black"
+            className="border bg-red-300 border-red-300 text-red-300 w-fit px-6 py-1 text-s rounded-full text-black"
           >
             Shop Now
           </p>
