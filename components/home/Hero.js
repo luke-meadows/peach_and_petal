@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="relative w-full h-[35rem]">
       <Image src={hero} layout="fill" objectFit="cover" />
       <div
-        className="w-full absolute left-0 top-[50%] translate-y-[-50%] flex justify-center items-center flex-col px-20 py-12 rounded-tr-md rounded-br-md"
+        className="w-full absolute left-0 top-[50%] translate-y-[-50%] flex justify-center items-center flex-col px-20 py-12"
         style={{ background: 'rgba(0,0,0,0.5)' }}
       >
         <p

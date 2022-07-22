@@ -1,7 +1,7 @@
 export default function Header() {
   return (
     <div>
-      <div className="grid grid-cols-6 px-12 py-6 items-center">
+      <div className="grid grid-cols-6  py-6 items-center sm:px-2 md:px-12 lg:px-12">
         <div className="flex w-[180px] col-span-1">
           <i className="icon-facebook mr-2 text-xl text-gray-700" />
           <i className="icon-instagram text-xl text-gray-700" />
