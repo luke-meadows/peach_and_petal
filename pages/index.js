@@ -7,6 +7,7 @@ import lingerie from '../public/images/lingerie.png';
 import nightwear from '../public/images/nightwear.png';
 import newIn from '../public/images/new-in.png';
 import Hero from '../components/home/Hero';
+import Showcase from '../components/home/Showcase';
 
 export default function Home() {
   return (
@@ -17,11 +18,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero />
-      <div className="flex justify-evenly m-24 gap-x-24">
+      <div className="flex justify-evenly m-24 gap-x-14">
         <ProductThumbnail title="Lingerie" image={lingerie} />
         <ProductThumbnail title="Nightwear" image={nightwear} />
         <ProductThumbnail title="New In" image={newIn} />
       </div>
+      <Showcase />
     </div>
   );
 }

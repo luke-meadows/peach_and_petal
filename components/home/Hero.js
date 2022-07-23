@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import hero from '../../public/images/hero5.jpg';
+import hero from '../../public/images/hero.jpg';
 
 export default function Hero() {
   return (
@@ -7,7 +7,7 @@ export default function Hero() {
       <Image src={hero} layout="fill" objectFit="cover" />
       <div
         className="w-full absolute left-0 top-[50%] translate-y-[-50%] flex justify-center items-center flex-col px-20 py-12"
-        style={{ background: 'rgba(255,255,255,0.55)' }}
+        style={{ background: 'rgba(255,255,255,0.4)' }}
       >
         <p
           className=" text-black text-5xl mb-4"
